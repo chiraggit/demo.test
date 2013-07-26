@@ -3,8 +3,15 @@
 <title>
 	GitHub test
 </title>
+<script>
+	function doSomething(){
+		var paragraph=document.getElementById("para");
+		paragraph.innerHTML="you have clicked on the button";
+	}
+</script>
 </head>
 <body>
-	<p>Hello. This is chirag and i am trying to get my hands on git hub</p>
+	<p id="para">Hello. This is chirag and i am trying to get my hands on git hub</p>
+	<input type="button" id="btn1" value="click" onclick="doSomething()"></input>
 </body>
 </html>
